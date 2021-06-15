@@ -19,16 +19,28 @@
         <header>
             <div class="container-big ">
               <div class="header-left">
-                <div>
+                <div class="logo">
                   <img src="./dist/img/logo-restaurant.png" alt="">
                 </div>
                 <div>
-
+                  <hr>
+                  <span>the best table in town</span>
                 </div>
+                <div id="experience">
+                  <h1>fine dining experience</h1>
+                  <p>Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerique nisi in urna nulla. Sit tempor a et nisl, ac felis.</p>
+                  <a href="#"> explore the menu</a>
+                </div>
+
               </div>
 
               <div class="header-right">
-
+                <div class="tenda">
+                  <nav>
+                    <a v-for='element in menu' href="#">{{element}}</a>
+                    <i class="fas fa-shopping-cart"></i>
+                  </nav>
+                </div>
               </div>
 
             </div>

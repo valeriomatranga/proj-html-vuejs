@@ -9,7 +9,9 @@
 
 var app = new Vue({
   el: '#app',
-  data: {},
+  data: {
+    menu: ['Home', 'Culinary History', 'Our Team', 'Takeout', 'Bulletin', 'Reservation']
+  },
   methods: {}
 });
 

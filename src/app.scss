@@ -1,23 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import 'partials/common.scss';
 @import 'partials/variables.scss';
-
-header{
-    background-color: $black;
-    .container-big{
-        display: flex;
-    }
-}
-
-.header-left{
-    width: 40%;
-    padding: 30px 80px;
-}
-
-.header-right{
-    width: 60%;
-    height: 800px;
-    background-image: url(/dist/img/slider52x.jpg);
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
-}
+@import 'partials/header.scss';
