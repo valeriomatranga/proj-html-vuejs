@@ -1,0 +1,23 @@
+@import 'partials/common.scss';
+@import 'partials/variables.scss';
+
+header{
+    background-color: $black;
+    .container-big{
+        display: flex;
+    }
+}
+
+.header-left{
+    width: 40%;
+    padding: 30px 80px;
+}
+
+.header-right{
+    width: 60%;
+    height: 800px;
+    background-image: url(/dist/img/slider52x.jpg);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}

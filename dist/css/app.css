@@ -1,1 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+.container-big {
+  width: 100vw;
+  margin: auto;
+}
+
+/* color cube */
+/* /color cube */
+/* media cut */
+/* /media cut */
+/* material design */
+/* /material design */
+header {
+  background-color: #030303;
+}
+header .container-big {
+  display: flex;
+}
+
+.header-left {
+  width: 40%;
+  padding: 30px 80px;
+}
+
+.header-right {
+  width: 60%;
+  height: 800px;
+  background-image: url(/dist/img/slider52x.jpg);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}

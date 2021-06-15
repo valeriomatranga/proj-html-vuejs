@@ -1,6 +1,5 @@
-const { vue } = require("laravel-mix");
-
-const app = new vue({
+let app = new Vue({
+    
     el:'#app',
 
     data:{
@@ -8,6 +7,6 @@ const app = new vue({
     },
 
     methods:{
-        
+
     }
 })
