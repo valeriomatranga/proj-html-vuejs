@@ -22,10 +22,12 @@
               <div class="logo">
                 <img src="./dist/img/logo-restaurant.png" alt="">
               </div>
+              <!-- slogan -->
               <div>
                 <hr>
                 <span>the best table in town</span>
               </div>
+              <!-- slogan -->
               <div class="experience">
                 <h1>fine dining experience</h1>
                 <p>Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerique nisi in urna nulla. Sit tempor a et nisl, ac felis.</p>
@@ -36,7 +38,10 @@
             <div class="header-right">
               <div class="tenda">
                 <nav>
-                  <a v-for='element in menu' href="#">{{element}}</a>
+                  <a v-for='element in menu' href="#">
+                    {{element.link}} 
+                    <span v-if="element.tag != ''">{{element.tag}}</span> 
+                  </a>
                   <a href="#"><i class="fas fa-shopping-cart"></i></a>
                 </nav>
               </div>
@@ -89,18 +94,48 @@
           <div class="proposte">
             <div class="prop-left"></div>
             <div class="prop-right">
+              <!-- slogan -->
               <div>
                 <hr>
                 <span>fine dining experience</span>
               </div>
+              <!-- slogan -->
+
+              <!-- experience -->
               <div class="experience">
                 <h2>the best table in town</h2>
                 <p>Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerique nisi in urna nulla.</p>
                 <a href="#">explore the menu</a>
               </div>
-              
+              <!-- experience -->
             </div>
           </div>
+        </div>
+
+        <div id="section-tre">
+          <h4>What critics are saying about us</h4>
+          <div class="two-col">
+            <div class="col-left">
+              <img src="./dist/img/blog72x.jpg" alt="">
+            </div>
+            <div class="col-right">
+              <span>meggy stewart</span>
+              <h4>new york times</h4>
+              <div>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <hr>
+              <p>Non arcu mauris tortor ultrices mollis tellus euismod fermentum. Habitant amet tincidunt id sapien accumsan sed at.</p>
+              <p>Mmalesuada ullamcorper amet. Pretium pretium dignissim nisi.</p>
+              <a href="#">read full article</a>
+            </div>
+          </div>
+          <div></div>
+
         </div>
       </main>
 

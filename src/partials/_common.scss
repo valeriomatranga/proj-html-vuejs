@@ -10,7 +10,7 @@
     width: 100%;
     margin: auto;
 }
-
+/* slogan */
 @mixin slogan{
     display: flex;
     align-items: center;
@@ -30,7 +30,9 @@
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 3px;
 }
+/* slogan */
 
+/* experience */
 @mixin position{
     margin: 0px 100px;
     flex-direction: column;
@@ -67,5 +69,6 @@
         text-decoration: none;
     }
 }
+/* experience */
     
 
