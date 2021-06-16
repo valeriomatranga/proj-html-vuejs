@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Playfair Display", serif;
 }
 
 .container-big {
@@ -57,15 +58,14 @@ header .container-big {
   color: white;
   text-transform: uppercase;
   font-size: 6rem;
-  font-family: "Big Shoulders Display", cursive;
   font-weight: 700;
+  font-family: "Big Shoulders Display", cursive;
   margin-top: 50px;
   margin-bottom: 0px;
 }
 .header-left #experience p {
   color: #bcbcbc;
   margin: 50px 0;
-  font-family: "Playfair Display", serif;
   font-size: 1.3rem;
 }
 .header-left #experience a {
@@ -74,6 +74,11 @@ header .container-big {
   font-weight: 500;
   border: 1px solid #bcbcbc;
   padding: 5px 25px;
+}
+.header-left #experience a:hover {
+  background-color: #bcbcbc;
+  color: #030303;
+  text-decoration: none;
 }
 
 .header-right {
@@ -88,14 +93,89 @@ header .container-big {
   padding: 50px 100px;
   display: flex;
   justify-content: space-between;
-  color: #bcbcbc;
 }
 .header-right nav a {
   color: #bcbcbc;
   font-weight: 500;
+  text-decoration: none;
 }
 .header-right .tenda {
   width: 100%;
   height: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(3, 3, 3, 0) 38.11%);
+}
+
+#section-one {
+  width: 100%;
+  padding: 100px 50px;
+}
+#section-one .two-col {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+#section-one .two-col .col-left {
+  width: 50%;
+  padding: 50px 84px;
+}
+#section-one .two-col .col-left p {
+  margin: 20px 0;
+  font-size: 1.1rem;
+}
+#section-one .two-col .col-left p strong {
+  text-transform: uppercase;
+}
+#section-one .two-col .col-left h2 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 60px 0;
+}
+#section-one .two-col .col-left img {
+  margin: 30px 0;
+  width: 200px;
+}
+#section-one .two-col .col-right {
+  width: 50%;
+}
+#section-one .tre-col {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  padding-top: 100px;
+}
+#section-one .tre-col div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#section-one .tre-col div h4 {
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 30px 0;
+}
+#section-one .tre-col div hr {
+  border-top: 1px solid lightgray;
+  width: 60px;
+  margin: 0px;
+}
+#section-one .tre-col div p {
+  text-align: center;
+  margin: 30px;
+}
+#section-one .tre-col div a {
+  text-transform: uppercase;
+  border: 1px solid lightgray;
+  padding: 10px 30px;
+  color: #030303;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+#section-one .tre-col div a:hover {
+  background-color: #030303;
+  color: white;
+  text-decoration: none;
 }
