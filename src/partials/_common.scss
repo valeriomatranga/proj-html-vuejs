@@ -18,7 +18,7 @@
 @mixin slg-hr{
     width: 50px;
     color: lightgrey;
-    border: 1px solid rgba(211, 211, 211, 0.212);
+    border: 1px solid white;
     margin: 5px;
 }
 @mixin slg-span{
@@ -49,18 +49,18 @@
 }
 
  @mixin text{
-    color: $silver;
+    color: white;
     margin: 50px 0;
     font-size: 1.3rem;
 }
 
 
 @mixin button{
-    color: $silver;
+    color: white;
     text-transform: uppercase;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid $silver;
+    border: 1px solid white;
     padding: 5px 25px;
 
     &:hover{
@@ -70,5 +70,12 @@
     }
 }
 /* experience */
+
+@mixin two-col{
+    width: 80%;
+    margin: auto;
+    display: flex;
+
+}
     
 

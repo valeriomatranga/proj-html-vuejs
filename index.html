@@ -121,20 +121,50 @@
             <div class="col-right">
               <span>meggy stewart</span>
               <h4>new york times</h4>
-              <div>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
+                <ul class="stelle">
+                  <li class="stelle-link">
+                    <i v-for="num in 5" class="fas fa-star"></i>
+                  </li>
+                </ul>
               <hr>
               <p>Non arcu mauris tortor ultrices mollis tellus euismod fermentum. Habitant amet tincidunt id sapien accumsan sed at.</p>
               <p>Mmalesuada ullamcorper amet. Pretium pretium dignissim nisi.</p>
               <a href="#">read full article</a>
             </div>
           </div>
-          <div></div>
+
+          <div class="two-col-bottom">
+            <div class="col_left">
+              <div class="tenda">
+                <span>mary maxey</span>
+                <h4>the guardian</h4>
+                <ul class="stelle">
+                  <li class="stelle-link">
+                    <i v-for="num in 5" class="fas fa-star"></i>
+                  </li>
+                </ul>
+                <hr>
+                <p>Non arcu mauris tortor ultrices mollis tellus euismod fermentum. Habitant amet tincidunt id sapien accumsan sed.
+                </p>
+                <a href="#">read full article</a>
+              </div>
+            </div>
+            <div class="col_right">
+              <div class="tenda">
+                <span>patrick monroe</span>
+                <h4>globe and mail</h4>
+                <ul class="stelle">
+                  <li class="stelle-link">
+                    <i v-for="num in 5" class="fas fa-star"></i>
+                  </li>
+                </ul>
+                <hr>
+                <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt.
+                </p>
+                <a href="#">read full article</a>
+              </div>
+            </div>
+          </div>
 
         </div>
       </main>

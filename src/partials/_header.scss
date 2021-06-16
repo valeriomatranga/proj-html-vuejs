@@ -58,6 +58,10 @@ header{
             text-decoration: none;
             font-family: Arial, Helvetica, sans-serif;
 
+            &:hover{
+                color: white;
+            }
+
             span{
                 border: 1px solid $silver;
                 font-size: .8rem;
