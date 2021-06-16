@@ -27,12 +27,9 @@ let app = new Vue({
             {
                 link:"Reservation",
                 tag:"",
-            }
+            },
         ],
 
     },
 
-    methods:{
-
-    }
-})
+});

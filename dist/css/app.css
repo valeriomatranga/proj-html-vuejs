@@ -43,7 +43,7 @@ header .container-big {
 .header-left div hr {
   width: 50px;
   color: lightgrey;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.733);
   margin: 5px;
 }
 .header-left div span {
@@ -226,7 +226,7 @@ header .container-big {
 #section-two .proposte .prop-right div hr {
   width: 50px;
   color: lightgrey;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.733);
   margin: 5px;
 }
 #section-two .proposte .prop-right div span {
@@ -332,7 +332,7 @@ header .container-big {
 #section-tre .two-col .col-right hr {
   width: 50px;
   color: lightgrey;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.733);
   margin: 5px;
   margin-bottom: 50px;
 }
@@ -422,7 +422,7 @@ header .container-big {
 #section-tre .two-col-bottom .col_right hr {
   width: 50px;
   color: lightgrey;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.733);
   margin: 5px;
   margin-bottom: 50px;
 }
@@ -447,4 +447,46 @@ header .container-big {
   background-color: #bcbcbc;
   color: #030303;
   text-decoration: none;
+}
+
+#plate {
+  width: 100%;
+}
+#plate img {
+  width: 100%;
+  margin: 100px 0;
+}
+
+#section-for h4 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#section-for hr {
+  width: 50px;
+  color: lightgrey;
+  border: 1px solid rgba(255, 255, 255, 0.733);
+  margin: 5px;
+  border: 1px solid lightgray;
+  margin: auto;
+}
+#section-for .colon-tre {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+#section-for .colon-tre div {
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+}
+#section-for .colon-tre div img {
+  width: 100%;
+}
+#section-for .colon-tre div h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: "Big Shoulders Display", cursive;
+  margin: 30px 0px 5px;
 }

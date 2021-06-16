@@ -29,8 +29,7 @@ var app = new Vue({
       link: "Reservation",
       tag: ""
     }]
-  },
-  methods: {}
+  }
 });
 
 /***/ }),
