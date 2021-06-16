@@ -12,60 +12,30 @@ header{
     .logo{
         margin-bottom: 130px;
     }
+
     div{
-        display: flex;
-        align-items: center;
+        @include slogan;
         hr{
-            width: 50px;
-            color: $silver;
-            border: 1px solid rgba(211, 211, 211, 0.212);
-            margin: 5px;
+            @include slg-hr;
         }
         span{
-            text-transform: uppercase;
-            margin: 0px 40px;
-            color: $silver;
-            font-size: 1rem;
-            font-weight: 400;   
+            @include slg-span;
         }
     }
 
-    #experience{
-        margin: 0 100px;
-        flex-direction: column;
-        align-items: flex-start;
+    .experience{
+        @include position;
         h1{
-            color: white;
-            text-transform: uppercase;
-            font-size: 6rem;
-            font-weight: 700;
-            font-family: 'Big Shoulders Display', cursive;
-            margin-top: 50px;
-            margin-bottom: 0px;
+            @include title;
         }
-
         p{
-            color: $silver;
-            margin: 50px 0;
-            font-size: 1.3rem;
+            @include text;
         }
-
-
         a{
-            color: $silver;
-            text-transform: uppercase;
-            font-weight: 500;
-            border: 1px solid $silver;
-            padding: 5px 25px;
-
-            &:hover{
-                background-color: $silver;
-                color: $black;
-                text-decoration: none;
-            }
-        }
-        
+            @include button;
+        }   
     }
+
 }
 
 .header-right{
