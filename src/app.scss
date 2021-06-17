@@ -1,8 +1,18 @@
+/* import font */
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* -import font */
+
+/* file comuni */
 @import 'partials/common.scss';
 @import 'partials/variables.scss';
+/* -file comuni */
+
+/* header */
 @import 'partials/header.scss';
+/* /header */
+
+/* main */
 @import 'partials/section-one.scss';
 @import 'partials/section-two.scss';
 @import 'partials/section-tre';
@@ -10,6 +20,11 @@
 @import 'partials/section-five';
 @import 'partials/section-menu';
 @import 'partials/section-six';
+/* /main */
+
+/* footer */
+@import 'partials/footer';
+/* /footer */
 
 #plate{
     width: 100%;
@@ -20,64 +35,4 @@
     
 }
 
-.contatti{
-    width: 100%;
-    height: 800px;
-    background-image: linear-gradient(179.56deg, #030303 33.17%, rgba(3, 3, 3, 0) 160.62%), url(../../dist/img/slider52x.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    .intestazione{
-        width: 600px;
-        height: 300px;
-        text-align: center;
-        color: white;
-
-        p{
-            font-size: 1.2rem;
-            margin: 50px 0;
-        }
-        .socials{
-            display: flex;
-            justify-content: center;
-            div{
-                width: 50px;
-                height: 50px;
-                border-radius: 50%;
-                background-color: white;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin: 5px;
-                cursor: pointer;
-                color: #030303;
-
-                &:hover{
-                    color: white;
-                    background-color: #030303;
-                }
-                i{
-                    font-size: 1.2rem;
-                }
-            }
-        }
-    }
-
-}
-.copyright{
-    width: 100%;
-    height: 100px;
-    background-color: #030303;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    p{
-        color: white;
-    }
-}
 
