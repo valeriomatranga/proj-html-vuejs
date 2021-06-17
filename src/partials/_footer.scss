@@ -53,8 +53,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 
     p{
         color: white;
+    }
+    .back-header{
+        position: absolute;
+        bottom: 0px;
+        right: 57px;
+        width: 40px;
+        height: 30px;
+        background-color: #2e2e2e;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    .fa-chevron-up{
+        color: #bcbcbc;
+        font-size: 15px;
     }
 }
