@@ -91,6 +91,32 @@ var app = new Vue({
       name: "parfait au chocolat",
       price: 13,
       ingredients: "In pellentesque in felis massa vehicula. In sed euismod ut."
+    }],
+    social: [{
+      family: 'fab ',
+      prefix: 'fa-',
+      name: 'facebook',
+      type: '-f'
+    }, {
+      family: 'fab ',
+      prefix: 'fa-',
+      name: 'twitter',
+      type: ''
+    }, {
+      family: 'fab ',
+      prefix: 'fa-',
+      name: 'youtube',
+      type: ''
+    }, {
+      family: 'fab ',
+      prefix: 'fa-',
+      name: 'instagram',
+      type: ''
+    }, {
+      family: 'fab ',
+      prefix: 'fa-',
+      name: 'linkedin',
+      type: '-in'
     }]
   }
 });

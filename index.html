@@ -289,7 +289,20 @@
 
       <!-- footer -->
       <footer>
-        <div></div>
+        <div class="contatti">
+          <div class="intestazione">
+            <img src="./dist/img/logo-restaurant.png" alt="logo avada">
+            <p>Quam eu proin sit massa condimentum. Volutpat non pulvinar aliquet nunc. Quam eu proin sit massa condimentum.</p>
+            <div class="socials">
+              <div v-for='el in social'>
+                <i :class="el.family + el.prefix + el.name"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright 2021 - 2019 Avada | All Rights Reserved | Powered by <strong>WordPress</strong> | <strong>ThemeFusion</strong></p>
+        </div>
       </footer>
       <!-- /footer -->
 
