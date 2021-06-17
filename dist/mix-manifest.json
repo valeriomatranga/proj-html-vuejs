@@ -1,5 +1,6 @@
 {
     "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
     "/img/92124892-54cc2e00-edcc-11ea-8994-f15925e53b1e.jpg": "/img/92124892-54cc2e00-edcc-11ea-8994-f15925e53b1e.jpg",
     "/img/adventure_thumbnail.jpg": "/img/adventure_thumbnail.jpg",
     "/img/agency_thumbnail.jpg": "/img/agency_thumbnail.jpg",
@@ -100,6 +101,5 @@
     "/img/vet_thumbnail.jpg": "/img/vet_thumbnail.jpg",
     "/img/videographer-1.jpg": "/img/videographer-1.jpg",
     "/img/wedding_thumbnail-1.jpg": "/img/wedding_thumbnail-1.jpg",
-    "/img/yoga_demo.jpg": "/img/yoga_demo.jpg",
-    "/css/app.css": "/css/app.css"
+    "/img/yoga_demo.jpg": "/img/yoga_demo.jpg"
 }

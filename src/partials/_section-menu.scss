@@ -1,0 +1,85 @@
+#section-menu{
+    width: 100%;
+    height: 1350px;
+    padding: 50px;
+    display: flex;
+    align-items: flex-end;
+
+    .menu{
+        width: calc(100% / 3);
+        height: 90%;
+
+        h3{
+            text-transform: uppercase;
+            font-family: 'Big Shoulders Display', cursive;
+            font-weight: 700;
+            font-size: 2.5rem;
+            margin-bottom: 60px;
+        }
+    }
+    
+    #menu-left,
+    #menu-right{
+        background-color: $silver;
+        padding: 100px 100px;
+        display: flex;
+        flex-direction: column;
+        .piatto{
+            display: flex;
+            flex-direction: column;
+            margin: 30px 0;
+
+            .description{
+                display: flex;
+                justify-content: space-between;
+
+                h4{
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    font-size: 1.5rem;
+                    font-family: 'Big Shoulders Display', cursive;
+                }
+            }
+        }    
+    }
+
+    
+    #menu-center{
+        background-image: url('/dist/img/misc22x.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 50px;
+
+        .tenda{
+            background: linear-gradient(179.56deg, #030303 33.17%, rgba(3, 3, 3, 0) 99.62%);
+            width: 100%;
+            height: 100%;
+            padding: 100px 100px;
+            color: white;
+            h3{
+                text-transform: uppercase;
+                font-family: 'Big Shoulders Display', cursive;
+                font-weight: 700;
+                font-size: 2.5rem;
+                margin-bottom: 90px;
+            }
+            .piatto{
+                display: flex;
+                flex-direction: column;
+                margin: 60px 0;
+
+                .description{
+                    display: flex;
+                    justify-content: space-between;
+
+                    h4{
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        font-size: 1.5rem;
+                        font-family: 'Big Shoulders Display', cursive;
+                    }
+                }
+            }    
+        }
+    }
+}
