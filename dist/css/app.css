@@ -91,7 +91,7 @@ header .container-big {
 .header-right {
   width: 60%;
   height: 950px;
-  background-image: url("/dist/img/slider52x.jpg");
+  background-image: url(../../dist/img/slider52x.jpg);
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
@@ -209,7 +209,7 @@ header .container-big {
 #section-two .proposte .prop-left {
   width: 60%;
   height: 100%;
-  background-image: url("/dist/img/slider32x.jpg");
+  background-image: url(../../dist/img/slider32x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -361,12 +361,12 @@ header .container-big {
   display: flex;
 }
 #section-tre .two-col-bottom .col_left {
-  background-image: url("/dist/img/info52x.jpg");
+  background-image: url(../../dist/img/info52x.jpg);
   background-size: cover;
   margin-right: 25px;
 }
 #section-tre .two-col-bottom .col_right {
-  background-image: url("/dist/img/info12x.jpg");
+  background-image: url(../../dist/img/info12x.jpg);
   background-size: cover;
   margin-left: 25px;
 }
@@ -496,7 +496,7 @@ header .container-big {
 #section-five .proposte .prop-left {
   width: 60%;
   height: 100%;
-  background-image: url("/dist/img/slider72x-scaled.jpg");
+  background-image: url(../../dist/img/slider72x-scaled.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -606,7 +606,7 @@ header .container-big {
   font-family: "Big Shoulders Display", cursive;
 }
 #section-menu #menu-center {
-  background-image: url("/dist/img/misc22x.jpg");
+  background-image: url(../../dist/img/misc22x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 50px;
@@ -641,18 +641,10 @@ header .container-big {
   font-family: "Big Shoulders Display", cursive;
 }
 
-#plate {
-  width: 100%;
-}
-#plate img {
-  width: 100%;
-  margin: 100px 0;
-}
-
 #section-six {
   width: 100%;
   height: 880px;
-  background-image: url("/dist/img/hero42x.jpg");
+  background-image: url(../../dist/img/hero42x.jpg);
   background-size: cover;
   background-position: center;
   margin-top: 100px;
@@ -718,4 +710,12 @@ header .container-big {
   background-color: #bcbcbc;
   color: #030303;
   text-decoration: none;
+}
+
+#plate {
+  width: 100%;
+}
+#plate img {
+  width: 100%;
+  margin: 100px 0;
 }

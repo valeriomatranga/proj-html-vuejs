@@ -59,12 +59,12 @@
         @include two-col;
 
         .col_left{
-            background-image: url('/dist/img/info52x.jpg');
+            background-image: url(../../dist/img/info52x.jpg);
             background-size: cover;
             margin-right: 25px;
         }
         .col_right{
-            background-image: url('/dist/img/info12x.jpg');
+            background-image: url(../../dist/img/info12x.jpg);
             background-size: cover;
             margin-left: 25px;
         }
