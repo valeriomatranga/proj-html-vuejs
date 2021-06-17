@@ -21,4 +21,49 @@
 
 #section-six{
     width: 100%;
+    height: 880px;
+    background-image: url('/dist/img/hero42x.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    position: relative;
+
+    .info{
+        height: 75%;
+        width: 28.7%;
+        background-color: #030303;
+        position: absolute;
+        top: 12.5%;
+        left: 270px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 50px;
+
+        .offert{
+            display: flex;
+            h3{
+                @include title;
+                margin-top: 0;
+                margin-bottom: 50px;
+                
+            }
+            span{
+                @include slg-span;
+                margin:30px 0;
+                width: 60px;
+            }
+        }
+
+        hr{
+            @include slg-hr;
+        }
+        p{
+            @include text;
+        }
+        a{
+            @include button;
+        }
+    }
+
 }

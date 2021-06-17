@@ -648,3 +648,74 @@ header .container-big {
   width: 100%;
   margin: 100px 0;
 }
+
+#section-six {
+  width: 100%;
+  height: 880px;
+  background-image: url("/dist/img/hero42x.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
+  position: relative;
+}
+#section-six .info {
+  height: 75%;
+  width: 28.7%;
+  background-color: #030303;
+  position: absolute;
+  top: 12.5%;
+  left: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px;
+}
+#section-six .info .offert {
+  display: flex;
+}
+#section-six .info .offert h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 6rem;
+  font-weight: 700;
+  font-family: "Big Shoulders Display", cursive;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+#section-six .info .offert span {
+  text-transform: uppercase;
+  margin: 0px 40px;
+  color: lightgray;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+  margin: 30px 0;
+  width: 60px;
+}
+#section-six .info hr {
+  width: 50px;
+  color: lightgrey;
+  border: 1px solid rgba(255, 255, 255, 0.733);
+  margin: 5px;
+}
+#section-six .info p {
+  color: white;
+  margin: 50px 0;
+  font-size: 1.3rem;
+}
+#section-six .info a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid white;
+  padding: 5px 25px;
+}
+#section-six .info a:hover {
+  background-color: #bcbcbc;
+  color: #030303;
+  text-decoration: none;
+}
